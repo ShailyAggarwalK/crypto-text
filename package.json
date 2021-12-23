@@ -2,7 +2,7 @@
   "name": "crypto-text",
   "version": "0.1.0",
   "homepage": "https://shailyaggarwalk.github.io/crypto-text/",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
