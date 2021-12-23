@@ -1,7 +1,7 @@
 {
   "name": "crypto-text",
   "version": "0.1.0",
-  "homepage": "https://shailyaggarwalk.github.io/cypto-text/",
+  "homepage": "https://shailyaggarwalk.github.io/crypto-text/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
@@ -15,7 +15,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "predeploy": "npm run build",
+    "predeploy": "react-scripts build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
