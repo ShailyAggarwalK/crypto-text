@@ -8,8 +8,8 @@ on:
 
   workflow_dispatch:
 
-  env:
-    TEST_SECRET: the_secret
+env:
+  TEST_SECRET: the_secret
 
 jobs:
   build:
