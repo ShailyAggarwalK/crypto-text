@@ -20,9 +20,7 @@ jobs:
       - name: Make envfile
         uses: SpicyPizza/create-envfile@v1.3
         with:
-          envkey_DEBUG: false
-          envkey_SOME_API_KEY: "123456abcdef"
-          envkey_SECRET_KEY: ${{ secrets.TEST_SECRET }}
+          envkey_REACT_APP_TEST_SECRET: ${{ secrets.TEST_SECRET }}
 
       - name: Use Node.js 12.x
         uses: actions/setup-node@v1

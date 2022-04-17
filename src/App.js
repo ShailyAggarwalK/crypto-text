@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React : {process.env.TEST_SECRET}
+          Learn React2 : {process.env.REACT_APP_TEST_SECRET}
         </a>
       </header>
     </div>
