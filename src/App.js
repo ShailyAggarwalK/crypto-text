@@ -1,3 +1,4 @@
+import logo from './logo.svg';
 import CryptoJS from 'crypto-js';
 import {useEffect, useRef, useState} from "react";
 import './App.css';
@@ -57,7 +58,7 @@ function App() {
             <label className={showPasswordField ? 'show' : 'hide'}>
                 <input type="password" name="password" placeholder="secret" id="secretText" ref={password}
                        onKeyDown={(event) => {
-                           if (event.key === 'Enter') {
+                           if (event.key == 'Enter') {
                                if (showPasswordField === 'encrypt') encrypt(event.target.value);
                                else if (showPasswordField === 'decrypt') decrypt(event.target.value);
                            }
