@@ -44,7 +44,7 @@ function App() {
         <>
             <h1> Let's share secrets </h1>
             <label>
-                <textarea name="input" id="inputValue" placeholder="input" rows="10" cols="50"
+                <textarea name="input" id="inputValue" placeholder="input" rows="10"
                           value={inputText}
                           onChange={(event) => setInputText(event.target.value)}/>
             </label>
@@ -66,7 +66,7 @@ function App() {
             </label>
             <br/>
             <label>
-                <textarea name="result" id="result" placeholder="result" rows="10" cols="50"
+                <textarea name="result" id="result" placeholder="result" rows="10"
                           value={result}
                           disabled/>
             </label>
